@@ -1,0 +1,15 @@
+[package]
+name = "text_converter"
+version = "0.1.0"
+edition = "2021"
+description = "A trait that helps with manipulating text"
+license = "MIT OR Apache-2.0"
+keywords = ["text", "cli"]
+readme = "README.md"
+authors = ["fruit-bird"]
+repository = "https://github.com/fruit-bird/text_converter"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+arboard = "3.2.0"
